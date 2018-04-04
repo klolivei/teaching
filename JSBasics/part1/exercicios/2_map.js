@@ -1,4 +1,4 @@
-// complete the implementation of triple and map such that
+// Complete a implementacao do metodo map de forma que
 // [0,3,6,9,12] is printed
 
 var arr = [0,1,2,3,4];

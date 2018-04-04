@@ -7,9 +7,9 @@
 var data = true;
 
 if (data) {
-  console.log("Booleans rule!")
+  console.log("Booleans sao legais!")
 } else {
-  console.log("Booleans are lame.")
+  console.log("Booleans sao chatos")
 }
 
 // null. is an assignment value that means “no value”

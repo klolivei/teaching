@@ -1,6 +1,5 @@
-// Modify the code below so that it prints 1, 2, 2
-// console logs must stay in their respective functions
-// HINT: lexical environment
+// Modifique o programa para imprimir 1 2 2
+// sem modificar os console.log de lugar
 
 function x() {
     console.log(a);

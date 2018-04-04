@@ -1,5 +1,5 @@
-// What will print and why?
-// What will change if we delete line 5? Why?
+// O que vai imprimir e porque?
+// Se deletar a linha 5 o que acontece
 
 function x() {
     var a;

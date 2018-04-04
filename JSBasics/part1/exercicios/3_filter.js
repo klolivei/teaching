@@ -1,5 +1,4 @@
-// complete the following such that a new array with only integers
-// (while numbers) is returned
+// complete a funcao is integer de maneira que so numeros sejam retornados
 
 var arr = ['hello', 42, true, function() {}, "123", 3.14, 0, [1], {}];
 

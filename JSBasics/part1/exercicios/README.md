@@ -1,3 +1,10 @@
+Exercicios do adaptados bootCamp de Jordan Hayashi:
+https://github.com/klolivei/bootcamp/tree/master/day0
+
+-----------------------------------------
+Projeto do curso Cs50 Mobile:
+https://cs50.github.io/mobile/projects/0
+
 # Project 0
 
 The goal of this project is to practice JavaScript and its paradigms by creating
@@ -29,4 +36,4 @@ Good luck!
 ## Challenge! (Not Required)
 If you finish early and are up for a challenge, try adding delete functionality.
 This should be in the form of a button within each TODO that removes that TODO
-when clicked. 
+when clicked.

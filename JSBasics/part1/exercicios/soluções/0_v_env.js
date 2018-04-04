@@ -1,9 +1,9 @@
-// What will print and why?
-// What will change if we delete line 5? Why?
+// O que vai ser impresso e porque?
+// se deletar a linha 5 o que acontece?
 
 function x() {
     var a;
-    console.log(a); // undefined
+    console.log(a); // 1
 }
 
 function y() {
@@ -13,5 +13,5 @@ function y() {
 }
 
 var a = 1;
-console.log(a); // 1 
+console.log(a); // 1
 y();
