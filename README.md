@@ -14,6 +14,15 @@ Pre-requisitos:
  teached by me at CTECAMP (Campinas, Brazil):
 
  Pre - requisites:  HTML and CSS.
+ 
  Course content: JavaScript, Front-end frameworks and PHP.
+----------------
+
+Fontes / Sources:
+MDN web Docs
+FreeCodeCamp youTube channel
+Jordan Hayashi JSBootcamp
+Cs50 Web programming
+
 
  
