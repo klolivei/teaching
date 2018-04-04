@@ -1,6 +1,6 @@
 Curso de programação Web ministrado no CTECAMP (Campinas- Brasil)
 
-Toda semana colocarei o material o código discutido nas aulas aqui.
+Toda semana colocarei o código discutido nas aulas aqui.
 
 Conteudo ministrado:
 - JavaScript e PHP
