@@ -13,7 +13,7 @@ let uncheckedCount  = document.querySelectorAll('input[type="checkbox"]:not(:che
 
 function newTodo() {
 //creating checkBox element
-let cb = document.createElement( "input" )
+var cb = document.createElement( "input" )
 cb.type = "checkbox"
 cb.setAttribute( "class", classNames.TODO_CHECKBOX)
 cb.checked = false;

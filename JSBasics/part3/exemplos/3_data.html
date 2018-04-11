@@ -1,0 +1,29 @@
+<HTML>
+<HEAD>
+<TITLE> Propriedades/M�todos do objeto date </TITLE>
+</HEAD>
+<BODY>
+<center><p><font size="3" face="verdana"><b>Data e Hora</b></font></p>
+<SCRIPT LANGUAGE =  Javascript>
+  //----- obter a data
+  hoje = new Date();
+
+  //----- dia, mes e ano
+  dia = hoje.getDate ();
+  mes = hoje.getMonth () + 1; // janeiro é 0 , fevereiro é 1 e etc.
+  ano = hoje.getFullYear ();
+  if (dia < 10) dia = "0" + dia;
+  if (mes < 10) mes = "0" + mes;
+  document.write ("Hoje é: " + dia + "/" +
+						  mes + "/" + ano + "<br>");
+
+  //----- hora e minutos
+  horas = hoje.getHours();
+  minutos = hoje.getMinutes();
+  if (horas < 10) horas = "0" + horas;
+  if (minutos < 10) minutos = "0" + minutos;
+  document.write ("Hora: " + horas + ":" + minutos + "<br>");
+  //-->
+</SCRIPT>
+</BODY>
+</HTML>

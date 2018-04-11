@@ -1,0 +1,29 @@
+<HTML>
+<HEAD>
+<TITLE> Testando validacaoo de endereco de email </TITLE>
+<SCRIPT LANGUAGE =  Javascript>
+<!--
+  ender = prompt ("Entre com um endereco de e-mail","");
+// verifica qual a posicao da ultima arroba encontrada na string
+ind = ender.lastIndexOf("@");
+  if (ind >=0) {
+  //pega o texto que esta antes da arroba
+    nome = ender.substring (0, ind);
+//pega ao texto que esta depois da arroba
+    url = ender.substring (ind+1);
+	//verifica se algo foi encontrado
+    if (nome != "" && url != "") {
+	//exibe o usuario e domonio do endereco de email
+      document.write ("Usuario: " + nome + "<br>");
+      document.write ("Dominio: " + url + "<br>");
+	  document.write (ender + " parece ser um endereco de email valido.");
+    }
+    else alert("Endereco incompleto: Nome: '"+nome+"'  URL: '"+url+"'");
+  }
+  else alert (ender + " nao possui @!!!!");
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+</BODY>
+</HTML>

@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+<TITLE>onLoad() e onUnload()</TITLE>
+<SCRIPT LANGUAGE="Javascript">
+<!--
+  var nome= " ";
+
+  //---- Função de entrada na página
+  function saudacoes( ){
+    nome = prompt('Entre com seu nome: ','nome');
+    alert('Olá ' + nome + ', bem-vindo à minha página!');
+  }
+
+  //---- Função de saída da página
+  function tchau( ){
+    alert(nome + '. Obrigado por visitar minha página. Volte sempre!');
+   }
+//-->
+</SCRIPT>
+</HEAD>
+<BODY onLoad="saudacoes( );" onUnload="tchau( );">
+</BODY>

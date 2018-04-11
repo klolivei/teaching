@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+<TITLE> Jogo da Sorte </TITLE>
+<script>
+function iniciar(){
+	var desejo = prompt("Eu quero...", "")
+	if (desejo !== null){
+
+		var randvalor = 0;
+		var msg = "";
+//gerando o número aleatório
+// https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+		randvalor = parseInt (Math.random() * 5);
+//verificando qual a resposta para o pedido
+		switch(randvalor){
+		case 0:
+				msg="Isto já está acontecendo..."
+				break;
+		case 1:
+				msg="Isto não deve ocorrer..."
+				break;
+		case 2:
+				msg="Espere mais um pouco..."
+				break;
+		case 3:
+				msg="Talvez você seja atendido(a)"
+				break;
+		case 4:
+				msg="Ocorrerá dentro de poucos dias..."
+				break;
+		default:
+				msg="Isto é impossível"
+				break;
+		}
+		// https://www.w3schools.com/jsref/met_win_confirm.asp
+		if (confirm("Tem certeza que deseja "+ desejo + "?")){
+		alert(msg)
+		}else{
+		alert("Você cancelou a resposta do seu pedido...")
+		}
+	}else{
+	alert("Ok, tente novamente mais tarde...")
+	}
+}
+</script>
+</HEAD>
+<BODY>
+<a href="#" onClick="iniciar()">Faça seu pedido e clique aqui </a>
+</BODY>
+</HTML>

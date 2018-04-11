@@ -6,14 +6,20 @@
 <SCRIPT LANGUAGE="Javascript">
 <!--
 
-  nome = prompt ("Digite seu nome", "sem nome");
-  document.write (nome,"<BR>");
+  dia = prompt ("Entre dia da semana");
+  switch (dia) {
+    case "sabado":
+      document.write("Sabado!!")
+      break;
+    case "domingo":
+      document.write("Domingo!!")
+      break;
+    default:
+      document.write("Estude Web =/")
 
-  document.write ("Aluno: ", prompt("Digite seu nome", "sem nome"),"<BR>");
+  }
 
-  numero = prompt ("Digite um número", "0");
-  dobro = 2 * numero
-  document.write ("Dobro de ",numero ," é ", dobro, "<BR>");
+
 //-->
 </SCRIPT>
 </BODY>

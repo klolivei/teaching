@@ -1,0 +1,19 @@
+<HTML>
+<HEAD>
+<title>Exemplo de MouseOver</title>
+<SCRIPT language="Javascript">
+//---- carinha original
+function troca() {
+   document.goku.src = "gokuSayain.png";
+}
+
+//---- Carinha ativa
+function destroca() {
+   document.images[0].src = "gokuNormal.png";
+}
+</SCRIPT>
+</HEAD>
+<body bgcolor="#FFFFFF">
+     <img src="gokuNormal.png" border="0" name="goku" width="700" height="700" onMouseOver="troca()" OnMouseOut="destroca()">
+</body>
+</html>
