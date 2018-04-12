@@ -1,0 +1,34 @@
+<HTML>
+<HEAD>
+<TITLE>Arrays</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+  //--- Cria array
+  lista = new Array(5);
+
+  //--- L� nomes
+  document.write ("<h1>Nomes nao ordenados<br></h1>");
+  i = 0;
+  while (true) {
+    nome = prompt ("Entre com um nome");
+    if (nome == null) break;
+    lista[i] = nome;
+    document.write (lista[i] + "<br>");
+    i++;
+  }
+
+  //--- Ordena de acordo com o char
+  lista.sort();
+
+  //--- Lista nomes
+  document.write ("<h1><br>Nomes ordenados<br></h1>");
+  for (i=0; i<lista.length; i++) {
+    document.write (lista[i] + "<br>");
+  }
+
+//-->
+</SCRIPT>
+</BODY>
+</HTML>

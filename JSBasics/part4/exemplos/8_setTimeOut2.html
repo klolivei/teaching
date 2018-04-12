@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Objeto window</title>
+<script LANGUAGE="JavaScript">
+var contador = 10;
+var to = 0;
+
+function conta()
+{
+  if (contador >= 0) {
+   document.Formu.Mostrador.value = contador; // Mostra contador
+   inicia (); // Reinicia temporiza��o
+  }
+  if (contador == 0) {
+    clearTimeout (to); // Interrompe temporiza��o
+    contador = 10;  // Para poder acionar novamene o botao
+    blur (); // Manda a tela para segundo plano caso tenham outras janelas abertas
+  }
+  else contador--;
+}
+
+function inicia () {
+  to = setTimeout ("conta()", 1000);
+}
+</script>
+</head>
+<body>
+  <h1 align="center">Temporizacao (metodos do objeto window)</h1>
+  <form name="Formu">
+    <p align=center>
+    <input type="button" value="Vai para segundo plano" onClick="inicia ()">
+    <br><br>
+    <input size="2" name="Mostrador">
+    </p>
+  </form>
+</body>
+</html>

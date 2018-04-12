@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+<TITLE>Exemplo de matriz</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+  //--- Cria array
+  aluno0 = new Array ("Joao", 16, 8.2);
+  aluno1 = new Array ("Maria", 16, 9.5);
+  aluno2 = new Array ("Ana", 12, 8.3);
+  aluno3 = new Array ("Jose", 19, 7.4);
+
+  Escola = new Array (aluno0, aluno1, aluno2, aluno3);
+
+  //--- Lista os alunos da escola
+  document.write ("<h1 align='center'>Alunos da escola<br></h1>");
+  document.write ("<p align='center'>Total de alunos da escola: ", Escola.length, "</p>");
+  document.write ("<p align='center'>Numero de informacoes por aluno: ", Escola[0].length, "</p>");
+
+  //--- Ordena com o char
+  Escola.sort();
+
+  //--- coloca cabe�alho
+  document.write ("<p><b>Nome Idade Nota</b></p>");
+
+  //--- Lista nomes
+  for (var alu = 0; alu < Escola.length; alu++) {
+    for (var item = 0; item < Escola[alu].length; item++) {
+      document.write (Escola[alu][item], "  ");
+    }
+    document.write ("<br>");
+  }
+//-->
+</SCRIPT>
+</BODY>
+</HTML>

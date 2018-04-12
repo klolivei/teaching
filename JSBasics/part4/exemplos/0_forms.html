@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Formul�rios</title>
+<script LANGUAGE="JavaScript">
+<!--
+   function mostra () {
+     document.write (
+		"Method...: "+ document.formEmail.action+ "<br>"+
+		"Elements.: "+ document.formEmail.elements+ "<br>"+
+		"Length..: "+ document.formEmail.length+ "<br>"+
+		"Elements.length...: "+ document.formEmail.elements.length+ "<br>"+
+		"Encoding.: "+ document.formEmail.encoding+ "<br>"+
+		"Method...: "+ document.formEmail.method+ "<br>"+
+		"Name.....: "+ document.formEmail.name+ "<br>"+
+		"Target...: "+ document.formEmail.target+ "<br>");
+  }
+//-->
+</script>
+</head>
+<body>
+<h1 align="center">Propriedades do formul�rio</h1>
+<form METHOD="POST" NAME="formEmail" ACTION="arquivo.asp" onSubmit="return false;">
+  <input TYPE="button" NAME="resposta"  VALUE="Mostrar" onClick="mostra();">
+</form>
+</body>
+</html>

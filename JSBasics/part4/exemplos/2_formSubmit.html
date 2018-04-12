@@ -1,0 +1,30 @@
+<HTML>
+<HEAD>
+<TITLE>Valida��o de campos </TITLE>
+<script language="Javascript">
+function Verifica(){
+
+var nome = document.fEnviar.fNome.value;
+var email = document.fEnviar.fEmail.value;
+var ret = false;
+
+// o operador l�gico OU � representado por || em javascript
+if (nome == "" || email == ""){
+	alert("Preencha os campos \n Nome e Email.")
+}else{
+	alert("O formulario sera enviado!")
+	ret = true;
+}
+return (ret);
+}
+</script>
+</HEAD>
+
+<BODY>
+<FORM METHOD=POST ACTION="arquivo.ext" name="fEnviar" onSubmit ="return(Verifica())">
+Nome: <INPUT TYPE="text" NAME="fNome" value=""><br>
+Email: <INPUT TYPE="text" NAME="fEmail" value=""><br>
+<INPUT TYPE="submit" value="Enviar">
+</FORM>
+</BODY>
+</HTML>

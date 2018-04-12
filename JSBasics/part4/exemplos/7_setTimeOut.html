@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+<title>Timeout</title>
+</HEAD>
+
+<BODY>
+<script language="JavaScript">
+var cor1 = "black";
+var cor2 = "white";
+var incr = 5;
+
+function preto () {
+  console.log(document.bgColor)
+  document.bgColor = (document.bgColor == cor1)? cor2 : cor1
+  to = setTimeout ("preto();", 500);
+}
+</script>
+<h1 align=center>Timeout</h1>
+<p><input type="button" value="Liga" onClick="preto();"></p>
+<p><input type="button" value="Desliga" onClick="clearTimeout(to);"></p>
+</BODY>
+</HTML>

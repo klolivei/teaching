@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Valida��o de Menu suspenso</title>
+</head>
+<body>
+<SCRIPT LANGUAGE="JavaScript">
+  //---- Verifica se alguma op��o foi selecionada
+  function verifica () {
+    if (document.formu.ECivil.selectedIndex == 0) {
+      alert ("Estado Civil n�o selecionado");
+    }
+    else {
+      alert ("Informa��es enviadas com sucesso");
+      return true;
+    }
+  }
+</SCRIPT>
+<form name="formu" onSubmit="verifica();">
+  <p>Estado Civil:
+    <select size="1" name="ECivil">
+      <option selected>- - - - -</option>
+      <option>Solteiro</option>
+      <option>Casado</option>
+    </select>
+<input type="submit" value="Enviar">
+</form>
+</body>
+</html>

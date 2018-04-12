@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE>Objetos JS</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+  function exibeDados( ){
+	 document.write("Cor do ve�culo: " + this.cor + "<BR>");
+	 document.write("Ano do ve�culo: " + this.ano + "<BR>");
+	 document.write("Pre�o do ve�culo: " + this.preco + "<BR>");
+  }
+  function carro (cor, marca, ano, preco) {
+	 this .cor = cor;
+	 this.marca = marca;
+	 this.ano = ano;
+	 this.preco = preco;
+	 this.exibeDados = exibeDados;
+  }
+   carro1 = new carro("azul", "Ford", 1999, "R$ 12.000,00");
+  carro2 = new carro ("branco", "Chevrolet", 2000, "R$ 28.000,00");
+
+  //---- Informa��es sobre o carro 1
+  document.write("<H1> Informacoes sobre o veiculo 1</H1>" + "<p>");
+  document.write("Veiculo: " + carro1.marca + "<p>");
+  carro1.exibeDados( );
+
+  //---- Informa��es sobre o carro 2
+  document.write("<H1> Informa��es sobre o ve�culo 2</H1>" + "<p>");
+  document.write("Ve�culo: " + carro2.marca + "<p>");
+  carro2.exibeDados( );
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+</BODY>
+</HTML>

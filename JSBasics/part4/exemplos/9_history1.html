@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Objeto History</title>
+</head>
+
+<body>
+<h1 align=center>Objeto History - Página 3</h1>
+<p align=center><a href="9_history.html">Ir para página 1</a></p>
+<script language="JavaScript">
+  document.write ("<h3 align=center>Total de endereços armazenados: ",
+history.length, "</h3>");
+</script>
+
+<p align="center">
+  <input type="button" value="Voltar" onClick="history.back()">
+  <input type="button" value="Avançar" onClick="history.forward();">
+</p>
+<p align="center">
+  <input type="button" value="Ir para" onClick="history.go(num.value);">
+  <input type="text" name="num" value="0" size="2">
+</p>
+</body>
+</html>
