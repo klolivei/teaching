@@ -10,12 +10,14 @@ Pre-requisitos:
 
 
  -----------------------
- Source Code for  the Web Programming Course
+ 🇬🇧🇬🇧 Source Code for  the Web Programming Course
  teached by me at CTECAMP (Campinas, Brazil):
 
+
+ Course content: JavaScript, Front-end frameworks and PHP.
+ 
  Pre - requisites:  HTML and CSS.
  
- Course content: JavaScript, Front-end frameworks and PHP.
 ----------------
 
 Fontes / Sources:
