@@ -20,7 +20,7 @@ Pre-requisitos:
  
 ----------------
 
-Fontes / Sources:
+Fontes / 🇬🇧🇬🇧 Sources:
 MDN web Docs
 FreeCodeCamp youTube channel
 Jordan Hayashi JSBootcamp
